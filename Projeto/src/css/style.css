@@ -1,4 +1,19 @@
+.container {
+    /* coluna lado a lado */
+    padding: 30px;
 
+}
+
+.coluna {
+    width: 50%;
+    /* largura da coluna */
+}
+
+
+
+.study-info {
+    display: flex;
+}
 .display-1 {
     font-size: 45px;
     }
@@ -6,7 +21,14 @@
 .display-4 {
     font-size: 45px;
 }
-
-.progress-bar {
-    animation: 14s;
+.infos{
+    display: flex;
+    padding: 30px;
+}
+#final{
+    margin: 15px;
+    float: right;
+}
+.exps{
+    float: left;
 }
